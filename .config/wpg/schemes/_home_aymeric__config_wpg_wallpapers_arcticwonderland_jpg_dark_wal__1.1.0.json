@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/aymeric/.config/wpg/wallpapers/arcticwonderland.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0c0021",
+        "foreground": "#cba1c3",
+        "cursor": "#cba1c3"
+    },
+    "colors": {
+        "color0": "#0c0021",
+        "color1": "#B44E44",
+        "color2": "#D7A654",
+        "color3": "#21338E",
+        "color4": "#2652A9",
+        "color5": "#5A5B9B",
+        "color6": "#4A43A7",
+        "color7": "#cba1c3",
+        "color8": "#8e7088",
+        "color9": "#B44E44",
+        "color10": "#D7A654",
+        "color11": "#21338E",
+        "color12": "#2652A9",
+        "color13": "#5A5B9B",
+        "color14": "#4A43A7",
+        "color15": "#cba1c3"
+    }
+}

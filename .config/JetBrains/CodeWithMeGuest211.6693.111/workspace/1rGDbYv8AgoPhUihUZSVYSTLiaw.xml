@@ -1,0 +1,83 @@
+<project version="4">
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="cwm:///home/aymeric/IdeaProjects/Nemesis/src/main/java/dev/sim0n/anticheat/net/packet/PacketManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
+              <folding>
+                <marker date="0" expanded="true" signature="48:496" ph="..." />
+                <marker date="0" expanded="true" signature="849:3698" ph="{...}" />
+                <marker date="0" expanded="true" signature="3804:3869" ph="{...}" />
+                <marker date="0" expanded="true" signature="3975:4040" ph="{...}" />
+                <marker date="0" expanded="true" signature="4046:4286" ph="/** Handles a packet conversion from {@param nmsPacket} to a {@link EPacket} ...*/" />
+                <marker date="0" expanded="true" signature="4382:5214" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="null: ROOT" type="594777b1:ThinClientProjectViewNode" />
+              <item name="1: Nemesis" type="594777b1:ThinClientProjectViewNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ToolWindowManager">
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info id="Structure" order="1" side_tool="true" />
+      <window_info id="Commit" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Problems View" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="right" id="Maven" order="3" />
+    </layout>
+    <recentWindows>
+      <value>Project</value>
+    </recentWindows>
+  </component>
+  <component name="Trusted.Project.Settings" hasCheckedIfOldProject="true" />
+  <component name="WindowStateProjectService">
+    <state x="460" y="200" key="SettingsEditor" timestamp="1618593663124">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="460" y="200" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1618593663124" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="cwm:///home/aymeric/IdeaProjects/Nemesis/src/main/java/dev/sim0n/anticheat/net/packet/PacketManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
+          <folding>
+            <marker date="0" expanded="true" signature="48:496" ph="..." />
+            <marker date="0" expanded="true" signature="849:3698" ph="{...}" />
+            <marker date="0" expanded="true" signature="3804:3869" ph="{...}" />
+            <marker date="0" expanded="true" signature="3975:4040" ph="{...}" />
+            <marker date="0" expanded="true" signature="4046:4286" ph="/** Handles a packet conversion from {@param nmsPacket} to a {@link EPacket} ...*/" />
+            <marker date="0" expanded="true" signature="4382:5214" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

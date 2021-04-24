@@ -1,0 +1,19 @@
+setxkbmap -layout fr &
+
+xrandr --setprovideroutputsource modesetting NVIDIA-0
+xrandr --auto
+
+picom --experimental-backends --config ~/.config/picom/picom.conf &
+nitrogen --restore &
+
+export _JAVA_AWT_WM_NONREPARENTING=1 
+export AWT_TOOLKIT=MToolkit 
+
+start-pulseaudio-x11 &
+
+# Add this to your .xinitrc or whatever file starts programs on startup.
+# -R restores the last colorscheme that was in use.
+wal -R
+
+(conky | while read LINE; do xsetroot -name "$LINE";  done) &
+exec dwm 2> ~/.dwm.log
