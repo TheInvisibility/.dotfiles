@@ -1,5 +1,0 @@
-<application>
-  <component name="LocalDatabaseDriverManager" version="201">
-    <driver id="java.sql.Driver" name="User Driver" driver-class="java.sql.Driver" />
-  </component>
-</application>
