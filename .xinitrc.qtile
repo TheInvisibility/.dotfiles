@@ -6,10 +6,8 @@ xrandr --auto
 picom --experimental-backends --config ~/.config/picom/picom.conf &
 nitrogen --restore &
 
-# These are required for Intellij to work
 export _JAVA_AWT_WM_NONREPARENTING=1 
 export AWT_TOOLKIT=MToolkit 
-wmname LG3D
 
 start-pulseaudio-x11 &
 
@@ -17,8 +15,5 @@ start-pulseaudio-x11 &
 # -R restores the last colorscheme that was in use.
 wal -R
 
-# Eyes saver from blue light
-redshift -P -O 4500
-
 (conky | while read LINE; do xsetroot -name "$LINE";  done) &
-exec dwm 2> ~/.dwm.log
+exec qtile 2> ~/.dwm.log
