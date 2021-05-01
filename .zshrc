@@ -122,6 +122,7 @@ alias calacritty="vim ~/.config/alacritty/alacritty.yml"
 alias cpicom="vim ~/.config/picom/picom.conf"
 alias mkdwm="cd ~/suckless/dwm && sudo make clean install"
 alias mkst="cd ~/suckless/st && sudo make clean install"
+alias gits="git status"
 
 ZSH_CACHE_DIR=$HOME/.cache/oh-my-zsh
 if [[ ! -d $ZSH_CACHE_DIR ]]; then
