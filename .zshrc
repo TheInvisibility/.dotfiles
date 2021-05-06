@@ -1,19 +1,9 @@
-# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
-# Initialization code that may require console input (password prompts, [y/n]
-# confirmations, etc.) must go above this block; everything else may go below.
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
-
-# Path to your oh-my-zsh installation.
 ZSH=/usr/share/oh-my-zsh/
 
-# Set name of the theme to load --- if set to "random", it will
-# load a random theme each time oh-my-zsh is loaded, in which case,
-# to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
@@ -115,14 +105,27 @@ export EDITOR='vim'
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias doas="sudo"
+
+##### CONFIGS #####
 alias cconky="vim ~/.config/conky/conky.conf"
 alias cdwm="vim ~/suckless/dwm/config.h"
 alias cst="vim ~/suckless/st/config.h"
 alias calacritty="vim ~/.config/alacritty/alacritty.yml"
 alias cpicom="vim ~/.config/picom/picom.conf"
+alias zshrc="vim ~/.zshrc"
+alias bashrc="vim ~/.bashrc"
+
 alias mkdwm="cd ~/suckless/dwm && sudo make clean install"
 alias mkst="cd ~/suckless/st && sudo make clean install"
+
+##### GIT #####
 alias gits="git status"
+alias gitc="git commit -m"
+alias gitp="git push"
+
+##### DIRECTORIES #####
+alias work="cd ~/Downloads"
+alias suckless="cd ~/suckless"
 
 ZSH_CACHE_DIR=$HOME/.cache/oh-my-zsh
 if [[ ! -d $ZSH_CACHE_DIR ]]; then
@@ -131,23 +134,14 @@ fi
 
 source $ZSH/oh-my-zsh.sh
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 ######### PYWAL #########
 
 # Import colorscheme from 'wal' asynchronously
-# # &   # Run the process in the background.
-# # ( ) # Hide shell job control messages.
-# # Not supported in the "fish" shell.
 #(cat ~/.cache/wal/sequences &)
-#
-# # Alternative (blocks terminal for 0-3ms)
 #cat ~/.cache/wal/sequences
-
-# To add support for TTYs this line can be optionally added.
 #source ~/.cache/wal/colors-tty.sh
-########## END PYWAL ##########
 
 colorscript random 
 # neofetch
