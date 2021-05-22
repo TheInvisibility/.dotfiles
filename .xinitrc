@@ -12,6 +12,7 @@ export AWT_TOOLKIT=MToolkit
 wmname LG3D
 
 start-pulseaudio-x11 &
+xbindkeys &
 
 # Add this to your .xinitrc or whatever file starts programs on startup.
 # -R restores the last colorscheme that was in use.

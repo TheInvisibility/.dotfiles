@@ -118,6 +118,11 @@ alias bashrc="vim ~/.bashrc"
 alias mkdwm="cd ~/suckless/dwm && sudo make clean install"
 alias mkst="cd ~/suckless/st && sudo make clean install"
 
+alias wget="wget -c "
+alias www="python3 -m http.server "
+
+alias ipe='curl ipinfo.io/ip'
+
 ##### GIT #####
 alias gits="git status"
 alias gitc="git commit -m"
@@ -126,6 +131,11 @@ alias gitp="git push"
 ##### DIRECTORIES #####
 alias work="cd ~/Downloads"
 alias suckless="cd ~/suckless"
+alias cddwm="cd ~/suckless/dwm"
+alias cddwmblocks="cd ~/suckless/dwmblocks"
+alias patches="cd ~/suckless/patches"
+
+#######################
 
 ZSH_CACHE_DIR=$HOME/.cache/oh-my-zsh
 if [[ ! -d $ZSH_CACHE_DIR ]]; then
