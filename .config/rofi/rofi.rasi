@@ -9,10 +9,10 @@ configuration {
 }
 
 * {
-  bg: #ffdb18;
-  bg-alt: #20212C;
-  fg: #A0A0AB;
-  fg-alt: #5D5E72;
+  bg: #20212C;
+  bg-alt: #ffdb18;
+  fg: #000000;
+  fg-alt: #dee2e6;
 
   background-color: @bg;
   border: 0;
