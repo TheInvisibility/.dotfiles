@@ -16,7 +16,7 @@ xbindkeys &
 
 # Add this to your .xinitrc or whatever file starts programs on startup.
 # -R restores the last colorscheme that was in use.
-wal -R
+# wal -R
 
 # Eyes saver from blue light
 redshift -P -O 4500
