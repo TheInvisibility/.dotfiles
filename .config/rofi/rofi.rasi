@@ -1,6 +1,6 @@
 configuration {
   drun-display-format: "{name}";
-  font: "Iosevka Nerd Font Medium 12";
+  font: "Jetbrains Mono Medium 10";
   modi: "drun,run,window";
   fullscreen: false;
   sidebar-mode: false;
