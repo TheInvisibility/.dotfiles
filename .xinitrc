@@ -3,7 +3,7 @@ setxkbmap -layout fr &
 xrandr --setprovideroutputsource modesetting NVIDIA-0
 xrandr --auto
 
-picom -m 1 --experimental-backends --config ~/.config/picom/picom.conf &
+exec picom -m 1 --experimental-backends --config ~/.config/picom/picom.conf & > ~/.picom.log
 nitrogen --restore &
 
 # These are required for Intellij to work

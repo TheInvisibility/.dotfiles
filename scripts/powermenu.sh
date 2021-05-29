@@ -80,7 +80,8 @@ case $chosen in
         fi
         ;;
     $lock)
-		slock
+			sleep 10ms
+		  slock
         ;;
     $suspend)
 		ans=$(confirm_exit &)
