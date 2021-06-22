@@ -43,7 +43,4 @@
 #Paste GitHub token
 "xsel --clipboard < ~/scripts/clipboard/git_token"
     m:0x44 + c:28
-    Control+Mod4 + t 
-
-#
-# End of xbindkeys configuration
+    Control+Mod4 + t

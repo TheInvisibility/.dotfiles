@@ -2,12 +2,12 @@
 include "/usr/share/themes/Dracula/gtk-2.0/gtkrc"
 
 style "user-font" {
-	font_name = "JetBrains Mono 10"
+	font_name = "JetBrains Mono Medium 10"
 }
 
 widget_class "*" style "user-font"
 
-gtk-font-name="JetBrains Mono 10"
+gtk-font-name="JetBrains Mono Medium 10"
 
 include "/home/aymeric/.gtkrc.mine"
 

@@ -123,6 +123,9 @@ alias www="python3 -m http.server "
 
 alias ipe='curl ipinfo.io/ip'
 
+##### LS #####
+alias lh='exa -al --color=always --group-directories-first'
+
 ##### GIT #####
 alias gits="git status"
 alias gitc="git commit -m"

@@ -80,7 +80,7 @@ case $chosen in
         fi
         ;;
     $lock)
-			sleep 10ms
+			sleep .5s
 		  slock
         ;;
     $suspend)
